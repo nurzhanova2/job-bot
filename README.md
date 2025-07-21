@@ -14,10 +14,9 @@
 
 ### Установка
 ```python
-git clone https://github.com/nurzhanova2/http-scanner.git
+git clone https://github.com/nurzhanova2/job-bot.git
 cd http-scanner
 go mod tidy
 
 // запуск
-go run cmd/main.go --input=./data/urls.txt --report=json
-```
+go run cmd/main.go 
